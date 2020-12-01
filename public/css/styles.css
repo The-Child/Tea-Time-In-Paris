@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    font-family: Abril Fatface;
+}
+
 nav {
     min-height: 10vh ;
     display: flex;
@@ -39,7 +45,7 @@ body {
 
 img {
     width: 33%;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 #maps {
@@ -49,7 +55,40 @@ img {
     justify-content: space-between;
 }
 
+.mapouter {
+    width: 100%;
+}
+
 .gmap_canvas {
-    width: 33%;
+    width: 400px;
+    height: 400px;
     margin-top: 20%;
+}
+
+#navImage {
+    width: 10%;
+    height: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20%;
+    padding: 0;
+    background-color: black;
+
+
+}
+
+.intro {
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+    color: white;
 }
