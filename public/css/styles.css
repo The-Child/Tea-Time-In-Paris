@@ -1,0 +1,55 @@
+nav {
+    min-height: 10vh ;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+nav ul {
+    display:flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.main-head{
+    background-color: rgb(14, 15, 15);
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./../images/paris1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 130vh;
+    background-position: absolute;
+}
+
+#imagesDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 33%;
+    margin-top: 20%;
+}
+
+#maps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gmap_canvas {
+    width: 33%;
+    margin-top: 20%;
+}

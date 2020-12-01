@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.render("about", {
-        pageTitile: "about",
+        pageTitile: "about"
     });
 });
+
+app.listen(3000, () => {
+    console.log("sever is ready ! http://localhost:3000");
+})
