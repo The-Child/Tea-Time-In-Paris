@@ -15,3 +15,9 @@ app.get("/", (req, res) => {
         pageTitile: "homepage"
     });
 });
+
+app.get("/about", (req, res) => {
+    res.render("about", {
+        pageTitile: "about",
+    });
+});
