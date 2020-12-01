@@ -1,0 +1,24 @@
+{
+  "name": "Tea-Time-In-Paris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Child/Tea-Time-In-Paris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Child/Tea-Time-In-Paris/issues"
+  },
+  "homepage": "https://github.com/The-Child/Tea-Time-In-Paris#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
