@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
-    font-family: Abril Fatface;
+    font-family: Satisfy;
 }
 
 nav {
@@ -20,15 +20,15 @@ nav ul {
 }
 .main-head{
     background-color: rgb(14, 15, 15);
-    color: aliceblue;
+    color: pink;
 }
-a{
-    color: aliceblue;
+a {
+    color: pink;
     text-decoration: none;
 }
 
 body {
-    background-image: url("./../images/paris1.jpg");
+   background-color: rgb(255, 192, 218);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,11 +76,10 @@ img {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 40px;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 0;
-    background-color: black;
 
 
 }
@@ -90,5 +89,30 @@ img {
     text-align: center;
     justify-content: center;
     margin-top: 20%;
-    color: white;
+    color: black;
 }
+
+#place-names {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#home, #about {
+    font-size: 30px;
+}
+
+div > a {
+    color: black;
+}
+   
+a:hover { 
+    color: rgb(255, 81, 110);
+      
+}
+
+
+
